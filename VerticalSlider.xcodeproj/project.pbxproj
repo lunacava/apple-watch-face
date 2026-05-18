@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2457DA7D496DCE19EBBB0144 /* FaceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F4B8945BE1E89715254CA /* FaceSettings.swift */; };
+		2549DC6B14C23014BEAE7291 /* StepCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1962A6C9700BDB2635158B8C /* StepCountView.swift */; };
+		32CA72E08D95FF786E949EA8 /* SimpleTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8282C95691B916350972437F /* SimpleTimeView.swift */; };
+		3AB6C12D5CFF9DDDA3E407C5 /* OCRAExt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3A43E847AAF05089DF3056F /* OCRAExt.otf */; };
+		4844D973CF9444BE2E322C6F /* VerticalTimeRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E79246717587BB9483A5B /* VerticalTimeRuler.swift */; };
+		4AA986F720DB6D63EA5B5E8C /* VerticalSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD8A68A16A3338DE21F3AA /* VerticalSliderApp.swift */; };
+		4CE5E2EB011FD2A698FD2861 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F011C999340377F2BCB08 /* WorkoutManager.swift */; };
+		5668077F91F604BAA164B87D /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AFC57B3B9AB5752808974 /* HealthKitManager.swift */; };
+		5882149DD311D62D5D1C6403 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC56A775793496D3DF85B5 /* CustomizeView.swift */; };
+		62CF051A7C470DED80378118 /* VerticalSliderWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A753382E9AAEA119D98F8C5 /* VerticalSliderWatchApp.swift */; };
+		91DAB037675E759F40836706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2286B05AADE3D2C9F944E5 /* ContentView.swift */; };
+		B942DFFAE3D34D9745648809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E2B1421F9088D3E452E05B /* Assets.xcassets */; };
+		C7C686418E63C3E0C0F7BDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C494A53790EB8B440A58499 /* Assets.xcassets */; };
+		CE4DF26226B6913AC94C3934 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537EF287AC146145FDB5E40C /* HealthKit.framework */; };
+		F76BC60A6C0D5BFDE60C2130 /* TimeInfoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B65A9AEDBEBFB178E94717 /* TimeInfoPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A753382E9AAEA119D98F8C5 /* VerticalSliderWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSliderWatchApp.swift; sourceTree = "<group>"; };
+		1962A6C9700BDB2635158B8C /* StepCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCountView.swift; sourceTree = "<group>"; };
+		1A4F011C999340377F2BCB08 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		3E2286B05AADE3D2C9F944E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EDD8A68A16A3338DE21F3AA /* VerticalSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSliderApp.swift; sourceTree = "<group>"; };
+		537EF287AC146145FDB5E40C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		61B2AB419EA08E8A9175368F /* VerticalSliderWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalSliderWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B65A9AEDBEBFB178E94717 /* TimeInfoPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInfoPanel.swift; sourceTree = "<group>"; };
+		709E79246717587BB9483A5B /* VerticalTimeRuler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTimeRuler.swift; sourceTree = "<group>"; };
+		72F35A8601A29398246F2460 /* VerticalSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAC56A775793496D3DF85B5 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		8282C95691B916350972437F /* SimpleTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeView.swift; sourceTree = "<group>"; };
+		853F4B8945BE1E89715254CA /* FaceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSettings.swift; sourceTree = "<group>"; };
+		8C494A53790EB8B440A58499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8AFC57B3B9AB5752808974 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		A3A43E847AAF05089DF3056F /* OCRAExt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAExt.otf; sourceTree = "<group>"; };
+		A57E44485A240FACB6AB1E6F /* VerticalSliderWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VerticalSliderWatch.entitlements; sourceTree = "<group>"; };
+		B8E2B1421F9088D3E452E05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22B5D023220C924BE7FB45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9DD50520B398AB834CD288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8294DCA78E17126861247E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4DF26226B6913AC94C3934 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0948D6012DF9561479AA8F77 = {
+			isa = PBXGroup;
+			children = (
+				CF8C8A27B6A961750B94644E /* VerticalSlider */,
+				31A75D8888E7B3327D98989C /* VerticalSliderWatch */,
+				F676A726DB9408D6B5C8B80C /* Frameworks */,
+				A994C318413410467A7C1A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31A75D8888E7B3327D98989C /* VerticalSliderWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B8E2B1421F9088D3E452E05B /* Assets.xcassets */,
+				3E2286B05AADE3D2C9F944E5 /* ContentView.swift */,
+				7BAC56A775793496D3DF85B5 /* CustomizeView.swift */,
+				853F4B8945BE1E89715254CA /* FaceSettings.swift */,
+				8E8AFC57B3B9AB5752808974 /* HealthKitManager.swift */,
+				F9DD50520B398AB834CD288B /* Info.plist */,
+				A3A43E847AAF05089DF3056F /* OCRAExt.otf */,
+				8282C95691B916350972437F /* SimpleTimeView.swift */,
+				1962A6C9700BDB2635158B8C /* StepCountView.swift */,
+				68B65A9AEDBEBFB178E94717 /* TimeInfoPanel.swift */,
+				A57E44485A240FACB6AB1E6F /* VerticalSliderWatch.entitlements */,
+				0A753382E9AAEA119D98F8C5 /* VerticalSliderWatchApp.swift */,
+				709E79246717587BB9483A5B /* VerticalTimeRuler.swift */,
+				1A4F011C999340377F2BCB08 /* WorkoutManager.swift */,
+			);
+			path = VerticalSliderWatch;
+			sourceTree = "<group>";
+		};
+		A994C318413410467A7C1A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F35A8601A29398246F2460 /* VerticalSlider.app */,
+				61B2AB419EA08E8A9175368F /* VerticalSliderWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8C8A27B6A961750B94644E /* VerticalSlider */ = {
+			isa = PBXGroup;
+			children = (
+				8C494A53790EB8B440A58499 /* Assets.xcassets */,
+				D22B5D023220C924BE7FB45C /* Info.plist */,
+				4EDD8A68A16A3338DE21F3AA /* VerticalSliderApp.swift */,
+			);
+			path = VerticalSlider;
+			sourceTree = "<group>";
+		};
+		F676A726DB9408D6B5C8B80C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				537EF287AC146145FDB5E40C /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71330D750676D1E013D47062 /* VerticalSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E543C62A2A0218701E850C0A /* Build configuration list for PBXNativeTarget "VerticalSlider" */;
+			buildPhases = (
+				53C543044D46A3F61F0DA8F2 /* Sources */,
+				31FCE7A92B1A9DFF8E2E0CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalSlider;
+			packageProductDependencies = (
+			);
+			productName = VerticalSlider;
+			productReference = 72F35A8601A29398246F2460 /* VerticalSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85C13FDCA871BABA48FCB9B4 /* VerticalSliderWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84656B125DEF870F0865027F /* Build configuration list for PBXNativeTarget "VerticalSliderWatch" */;
+			buildPhases = (
+				E235FC587E45B33C48632436 /* Sources */,
+				2525D3E4FA23812B8AA0ED9D /* Resources */,
+				8294DCA78E17126861247E4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalSliderWatch;
+			packageProductDependencies = (
+			);
+			productName = VerticalSliderWatch;
+			productReference = 61B2AB419EA08E8A9175368F /* VerticalSliderWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61232D9A296A1613AE037338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					85C13FDCA871BABA48FCB9B4 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D844FBA4D5DCE8C051B73C45 /* Build configuration list for PBXProject "VerticalSlider" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0948D6012DF9561479AA8F77;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A994C318413410467A7C1A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71330D750676D1E013D47062 /* VerticalSlider */,
+				85C13FDCA871BABA48FCB9B4 /* VerticalSliderWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2525D3E4FA23812B8AA0ED9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B942DFFAE3D34D9745648809 /* Assets.xcassets in Resources */,
+				3AB6C12D5CFF9DDDA3E407C5 /* OCRAExt.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FCE7A92B1A9DFF8E2E0CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C686418E63C3E0C0F7BDF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C543044D46A3F61F0DA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA986F720DB6D63EA5B5E8C /* VerticalSliderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E235FC587E45B33C48632436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DAB037675E759F40836706 /* ContentView.swift in Sources */,
+				5882149DD311D62D5D1C6403 /* CustomizeView.swift in Sources */,
+				2457DA7D496DCE19EBBB0144 /* FaceSettings.swift in Sources */,
+				5668077F91F604BAA164B87D /* HealthKitManager.swift in Sources */,
+				32CA72E08D95FF786E949EA8 /* SimpleTimeView.swift in Sources */,
+				2549DC6B14C23014BEAE7291 /* StepCountView.swift in Sources */,
+				F76BC60A6C0D5BFDE60C2130 /* TimeInfoPanel.swift in Sources */,
+				62CF051A7C470DED80378118 /* VerticalSliderWatchApp.swift in Sources */,
+				4844D973CF9444BE2E322C6F /* VerticalTimeRuler.swift in Sources */,
+				4CE5E2EB011FD2A698FD2861 /* WorkoutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27BDFF67681F97754ADD94B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VerticalSliderWatch/VerticalSliderWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 837L6S984M;
+				INFOPLIST_FILE = VerticalSliderWatch/Info.plist;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verticalslider.app.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		6FE3FCF077FEC380B4A2A565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8AAEE7465603B5A4799F246B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 837L6S984M;
+				INFOPLIST_FILE = VerticalSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verticalslider.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E0E571C54A5BA78450AA5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VerticalSliderWatch/VerticalSliderWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 837L6S984M;
+				INFOPLIST_FILE = VerticalSliderWatch/Info.plist;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verticalslider.app.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E8240C5342472437A68C481F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F198A673617A33E61E24E4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 837L6S984M;
+				INFOPLIST_FILE = VerticalSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verticalslider.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84656B125DEF870F0865027F /* Build configuration list for PBXNativeTarget "VerticalSliderWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0E571C54A5BA78450AA5B7 /* Debug */,
+				27BDFF67681F97754ADD94B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D844FBA4D5DCE8C051B73C45 /* Build configuration list for PBXProject "VerticalSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8240C5342472437A68C481F /* Debug */,
+				6FE3FCF077FEC380B4A2A565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E543C62A2A0218701E850C0A /* Build configuration list for PBXNativeTarget "VerticalSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAEE7465603B5A4799F246B /* Debug */,
+				F198A673617A33E61E24E4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61232D9A296A1613AE037338 /* Project object */;
+}
